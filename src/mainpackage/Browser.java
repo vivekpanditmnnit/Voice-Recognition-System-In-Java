@@ -114,7 +114,7 @@ public class Browser extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void searchActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_searchActionPerformed
+    public void searchActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_searchActionPerformed
         // TODO add your handling code here:
         String serch = searchBox.getText();
         serch = removeWhiteSpace(serch);
@@ -159,7 +159,7 @@ public class Browser extends javax.swing.JFrame {
         return str;
     } 
     
-    private void goActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_goActionPerformed
+    public void goActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_goActionPerformed
         // TODO add your handling code here:
         String link = linkBox.getText();
         String serch = searchBox.getText();
